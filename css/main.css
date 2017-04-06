@@ -20,6 +20,7 @@ body {
   font-weight: 100;
   font-size: 50px;
   line-height: 68px;
+	margin-top: 60px;
 }
 @media (max-width: 900px) {
 .heading {
@@ -45,6 +46,7 @@ body {
 }
 .heading + .paragraph {
   margin-top: 30px;
+	font-size: 22px;
 }
 .subheading + .paragraph {
   margin-top: 10px;
@@ -63,7 +65,7 @@ p.paragraph {
   }
 }
 .nav-link2,
-.nav-link {
+.nav-link, .iubenda-white.iubenda-embed {
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
@@ -163,9 +165,6 @@ p.paragraph {
 	}
 	.header .flex {
 		flex-direction: column;
-	}
-	.header	.heading {
-		margin-top: 60px;
 	}
 	.header	.col-6 {
 		width: 100%;
